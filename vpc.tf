@@ -107,7 +107,7 @@ resource "aws_internet_gateway" "project_igw" {
   }
 }
 
-resource "aws_route_table" "prject_public_rtb" {
+resource "aws_route_table" "project_public_rtb" {
   vpc_id = aws_vpc.project_vpc.id
 
   route {
