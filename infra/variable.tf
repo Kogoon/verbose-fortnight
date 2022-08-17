@@ -18,11 +18,11 @@ variable "REGION" {
 #   default = "ap-northeast-2d"    
 # }
 
-variable "AMIs" {
-  type = map
-  default = {
-    ap-northeast-2 = "ami-01711d925a1e4cc3a"
-    ap-northeast-1 = "ami-0ecb2a61303230c9d"
-  }
-}
+# variable "AMIs" {
+#   type = map
+#   default = {
+#     ap-northeast-2 = "ami-01711d925a1e4cc3a"
+#     ap-northeast-1 = "ami-0ecb2a61303230c9d"
+#   }
+# }
 

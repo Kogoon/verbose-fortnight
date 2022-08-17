@@ -2,21 +2,21 @@ variable "REGION" {
   default = "ap-northeast-2"
 }
 
-# variable "ZONE-A" {
-#   default = "ap-northeast-2a"
-# }
+variable "ZONE-A" {
+  default = "ap-northeast-2a"
+}
 
-# variable "ZONE-B" {
-#   default = "ap-northeast-2b"    
-# }
+variable "ZONE-B" {
+  default = "ap-northeast-2b"    
+}
 
-# variable "ZONE-C" {
-#   default = "ap-northeast-2c"    
-# }
+variable "ZONE-C" {
+  default = "ap-northeast-2c"    
+}
 
-# variable "ZONE-D" {
-#   default = "ap-northeast-2d"    
-# }
+variable "ZONE-D" {
+  default = "ap-northeast-2d"    
+}
 
 variable "AMIs" {
   type = map
@@ -26,3 +26,6 @@ variable "AMIs" {
   }
 }
 
+variable "PUB_KEY" {
+  default = ""
+}
