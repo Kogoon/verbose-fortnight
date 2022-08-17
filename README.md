@@ -11,7 +11,6 @@ $ sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLi
 $ sudo yum install -y terraform
 ```
 
-
 ## Terraform usage
 
 ``` bash
@@ -20,4 +19,25 @@ $ terraform validate
 $ terraform plan
 $ terraform apply
 $ terraform destroy
+```
+
+## Project
+
+``` text
+.
+├── eks
+│   ├── output.tf
+│   ├── providers.tf
+│   └── variable.tf
+├── infra
+│   ├── output.tf
+│   ├── providers.tf
+│   ├── variable.tf
+│   └── vpc.tf
+├── README.md
+└── workspace
+    ├── instance.tf
+    ├── output.tf
+    ├── providers.tf
+    └── variable.tf
 ```
